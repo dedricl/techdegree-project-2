@@ -394,3 +394,19 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
+/* ==========================================================================
+   List
+   ========================================================================== */
+
+/**
+ * Remove default list styles,margins and padding.
+ */
+
+ ol,
+ ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+ }
