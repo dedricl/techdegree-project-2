@@ -10,108 +10,119 @@
   </head>
 
   <body>
+  <div class="wrapper">
     <header>
-      <h1>Dedric Leftwich</h1>
-      <nav class="main-nav">
+      <h1 >Dedric Leftwich</h1>
+      <nav class="main-nav" id="#top">
         <ul >
-          <li><a href="">Home</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
-      <img src="images/responsive-layout-profile.png" alt="Picture of Dedric" class="profile-image"/>
-      <p>
-        Hi! I'm a front-end developer who loves responsive
-        design and css. I recently finished learning front-end
-        web development at Treehouse and I am excited to put
-        all my skills to use!
-      </p>
-    </header
+        <div class="container">
+          <img src="images/responsive-layout-profile.png" alt="Picture of Dedric" class="profile-image"/>
+
+          <p class="profile-speech">
+            Hi! I'm a front-end developer who loves responsive
+            design and css. I recently finished learning front-end
+            web development at Treehouse and I am excited to put
+            all my skills to use!
+          </p>
+        </div>
+    </header>
 
 
 
     <main>
-      <div id="wrapper">
 
-        <h2>PORTFOLIO</h2>
+        <h2 id="portfolio">PORTFOLIO</h2>
 
-        <div class="portfolio-unit">
-          <img src="images/portfolio-1.png" alt="Picture of a marketing website"/>
-          <h4 class="headline">Marketing Page</h4>
-          <p>
-            This project shows the front page of a marketing
-            website meant for a specific business I'm interested in.
-          </p>
-        </div>
+        <div class="group">
+          <div class="portfolio-unit col">
+            <img src="images/portfolio-1.png" alt="Picture of a marketing website"/>
+            <h4 class="headline">Marketing Page</h4>
+            <p>
+              This project shows the front page of a marketing
+              website meant for a specific business I'm interested in.
+            </p>
+          </div>
 
-        <div class="portfolio-unit">
-          <img src="images/portfolio-2.png" alt="Picture of a search page website"/>
-          <h4 class="headline">Search Page</h4>
-          <p>
-            This project searches through a specific database to
-            find information that the user is trying to look up.
-          </p>
-        </div>
+          <div class="portfolio-unit col">
+            <img src="images/portfolio-2.png" alt="Picture of a search page website"/>
+            <h4 class="headline">Search Page</h4>
+            <p>
+              This project searches through a specific database to
+              find information that the user is trying to look up.
+            </p>
+          </div>
 
-        <div class="portfolio-unit">
-          <img src="images/portfolio-3.png" alt="Picture of a Travel App website"/>
-          <h4 class="headline">Travel App</h4>
-          <p>
-            This project compares travel times based on different transporation
-            methods and tells you the best one.
-          </p>
-        </div>
+          <div class="portfolio-unit col">
+            <img src="images/portfolio-3.png" alt="Picture of a Travel App website"/>
+            <h4 class="headline">Travel App</h4>
+            <p>
+              This project compares travel times based on different transporation
+              methods and tells you the best one.
+            </p>
+          </div>
 
-        <div class="portfolio-unit">
-          <img src="images/portfolio-4.png" alt="Picture of a map of favorite spots"/>
-          <h4 class="headline">Map of Favorite Spots</h4>
-          <p>
-            This project uses mapping apis to plot points
-            for my favorite spots in the city for a do-it
-            yourself walking tour.
-          </p>
-        </div>
+          <div class="portfolio-unit col">
+            <img src="images/portfolio-4.png" alt="Picture of a map of favorite spots"/>
+            <h4 class="headline">Map of Favorite Spots</h4>
+            <p>
+              This project uses mapping apis to plot points
+              for my favorite spots in the city for a do-it
+              yourself walking tour.
+            </p>
+          </div>
 
-        <div class="portfolio-unit">
-          <img src="images/portfolio-5.png" alt="Picture of a photo gallery"/>
-          <h4 class="headline">Photo Gallery</h4>
-          <p>
-            This project shows pictures from a recent trip
-            to the viewer and allows thems to easily navigate
-            through photos.
-          </p>
-        </div>
+          <div class="portfolio-unit col">
+            <img src="images/portfolio-5.png" alt="Picture of a photo gallery"/>
+            <h4 class="headline">Photo Gallery</h4>
+            <p>
+              This project shows pictures from a recent trip
+              to the viewer and allows thems to easily navigate
+              through photos.
+            </p>
+          </div>
 
-        <div class="portfolio-unit">
-          <img src="images/portfolio-6.png" alt="Picture of a calculator website"/>
-          <h4 class="headline">Calculator</h4>
-          <p>
-            Someone can enter in the numbers they want, and press
-            the big blue button and get the result.
-          </p>
-        </div>
-
+          <div class="portfolio-unit col">
+            <img src="images/portfolio-6.png" alt="Picture of a calculator website"/>
+            <h4 class="headline">Calculator</h4>
+            <p>
+              Someone can enter in the numbers they want, and press
+              the big blue button and get the result.
+            </p>
+          </div>
+       </div>
 
 
         <div id="contact">
           <h2>Contact</h2>
-          <p>
+          <p class="contact-info">
             If you're interested in chatting or want more information about what
             I've been working on, I'd love to hear from you!
           </p>
 
           <p>Phone <strong>(555)555-5555</strong></p>
-          <p>Email <strong><a href="">dedricleftwich@gmail.com</a></strong><p>
+          <p>Email <strong><a href="mailto:dedricleftwich@gmail.com?Subject=contact" target="_blank">dedricleftwich@gmail.com</a></strong><p>
         </div>
 
-      </div>
     </main>
 
     <footer>
-      <p id="name">Dedric Leftwich</p>
-      <p id="top">Back To Top</p>
-    </footer>
+        <p id="name">Dedric Leftwich</p>
+        <p class="top-of-page"><a href="#top">Back To Top</a></p>
 
+        <nav class="footer-nav">
+          <ul >
+            <li><a href="#top">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </footer>
+  </div>
   </body>
 </html>
